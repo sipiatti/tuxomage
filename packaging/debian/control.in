@@ -1,0 +1,20 @@
+Package: tuxomage
+Version: @VERSION@
+Architecture: all
+Maintainer: @MAINTAINER@
+Installed-Size: @INSTALLED_SIZE@
+Depends: python3 (>= 3.10), python3-pygame (>= 2.1)
+Section: games
+Priority: optional
+Description: penguin-themed tower-building card duel against the computer
+ TuxoMage is a colourful card game with a Linux and penguin theme. Two
+ penguin wizards each defend a Tower behind a Firewall and run three
+ producers (Compiler, Kernel, Colony) that yield Code, Bytes and
+ Penguins every turn. Play one of six cards each turn to build up your
+ side or attack the opponent. Reach the tower goal, destroy the enemy
+ tower or hoard enough resources to win.
+ .
+ Features 102 original cards, four rule presets, an easy / normal / hard
+ computer opponent, animations, statistics, high scores, sound effects
+ and music. The user interface is in Hungarian and English. The gameplay
+ is inspired by Arcomage; the game is not affiliated with it.

@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest
+cairosvg     # only for tools/make_assets.py
+numpy        # only for tools/make_sounds.py (plus ffmpeg with libvorbis)

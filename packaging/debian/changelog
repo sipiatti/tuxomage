@@ -1,0 +1,8 @@
+tuxomage (0.1.0) unstable; urgency=medium
+
+  * Initial release: penguin / Linux themed tower-building card duel
+    against the computer (Arcomage-inspired), 102 original cards,
+    four rule presets, easy / normal / hard AI, Hungarian and English
+    user interface, statistics, sound effects and music.
+
+ -- Siposs Attila <sipiatti@gmail.com>  Mon, 16 Nov 2026 12:00:00 +0100

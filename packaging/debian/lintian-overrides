@@ -1,0 +1,10 @@
+# The game bundles its own OFL font (Baloo 2); it is not packaged in Debian/Ubuntu.
+tuxomage: font-in-non-font-package [usr/share/tuxomage/tuxomage/assets/fonts/*]
+tuxomage: font-outside-font-dir [usr/share/tuxomage/tuxomage/assets/fonts/*]
+# The OFL licence text is kept next to the bundled font, as the OFL requires it to travel with the font.
+tuxomage: package-contains-documentation-outside-usr-share-doc [usr/share/tuxomage/tuxomage/assets/fonts/OFL.txt]
+# The real launcher is /usr/games/tuxomage; /usr/bin/tuxomage is only a compatibility symlink
+# so the command works even where /usr/games is not on PATH.
+tuxomage: package-section-games-but-has-usr-bin
+# Python package directory inside the private module dir (/usr/share/<pkg>/<pkg>/), the usual layout.
+tuxomage: repeated-path-segment tuxomage [usr/share/tuxomage/tuxomage/]

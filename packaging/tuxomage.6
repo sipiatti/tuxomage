@@ -1,0 +1,75 @@
+.TH TUXOMAGE 6 "2026-11-16" "tuxomage @VERSION@" "Games"
+.SH NAME
+tuxomage \- penguin-themed tower-building card duel against the computer
+.SH SYNOPSIS
+.B tuxomage
+.RB [ \-\-fullscreen ]
+.RB [ \-\-mute ]
+.RB [ \-\-lang " " hu | en ]
+.RB [ \-\-version ]
+.RB [ \-h | \-\-help ]
+.SH DESCRIPTION
+.B tuxomage
+is a card game for one player against the computer. Each side has a Tower,
+a Firewall and three producers (Compiler, Kernel, Colony) which add Code,
+Bytes and Penguins to their stocks at the start of every own turn.
+Each turn play one of your six cards (paid from the stock of its colour)
+or discard one. Damage hits the Firewall first. Win by building your Tower
+up to the goal, destroying the enemy Tower, or collecting enough of any
+resource. Four presets (classic, quick, fortress, marathon) and three
+difficulty levels are available. The gameplay is inspired by Arcomage;
+the game is not affiliated with it and uses none of its content.
+.SH OPTIONS
+.TP
+.B \-\-fullscreen
+Start in fullscreen mode.
+.TP
+.B \-\-mute
+Do not open the audio device (no music, no sound effects).
+.TP
+.BR \-\-lang " " hu | en
+User interface language (default: the saved setting, initially Hungarian).
+.TP
+.B \-\-version
+Print the version and exit.
+.TP
+.BR \-h ", " \-\-help
+Show a short help text and exit.
+.SH CONTROLS
+.TP
+.B Left click
+play a card
+.TP
+.B Right click, or drag onto the bin
+discard a card
+.TP
+.BR D " or the bin button"
+toggle discard mode
+.TP
+.BR 1 \(en 6 ", " Shift+1 \(en 6
+play / discard the given card
+.TP
+.B M
+music on/off
+.TP
+.B S
+sound effects on/off
+.TP
+.B F11
+toggle fullscreen
+.TP
+.B Esc
+pause menu
+.SH FILES
+.TP
+.I ~/.local/share/tuxomage/save.json
+statistics, high scores and settings (honours
+.BR XDG_DATA_HOME ).
+.SH ENVIRONMENT
+.TP
+.B TUXOMAGE_DATA_DIR
+override the directory of
+.IR save.json .
+.SH AUTHOR
+Siposs Attila <sipiatti@gmail.com>. Created with vibe coding, with the help of Grok Bot. Code under the MIT (Expat) license; artwork and audio
+CC0\-1.0; Baloo 2 font under the SIL Open Font License 1.1.

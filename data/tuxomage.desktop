@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=TuxoMage
+Name[hu]=TuxoMage
+GenericName=Card Game
+GenericName[hu]=Kártyajáték
+Comment=Build your tower and knock down the enemy's in a penguin-themed card duel
+Comment[hu]=Építsd a tornyod és döntsd le a gépét ebben a pingvines kártyapárbajban
+Exec=tuxomage
+Icon=tuxomage
+Terminal=false
+Categories=Game;CardGame;StrategyGame;
+Keywords=card;tower;arcomage;penguin;linux;strategy;
+Keywords[hu]=kártya;torony;pingvin;stratégia;
